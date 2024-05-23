@@ -41,3 +41,29 @@ The Student Feedback System is a web-based application designed to collect and m
 - aid: VARCHAR(50), Primary Key
 - password: VARCHAR(255)
 - name: VARCHAR(100)
+## Usage
+**Admin Login**
+- Open the application in your web browser.
+- Log in using your admin credentials.
+- Access the admin dashboard to manage feedback and change passwords.
+**Student Feedback Submission**
+- Navigate to the feedback submission form.
+- Fill in the required fields and submit your feedback.
+## Security Measures
+- **Session Management:**
+    - Admin sessions are managed to maintain login state securely.
+- **Password Hashing:**
+    - Admin passwords are hashed using SHA1 before storing in the database.
+- **SQL Injection Prevention:**
+    - Parameterized queries are used to prevent SQL injection attacks.
+## Future Enhancements
+- **Improved Password Security:**
+    - Upgrade password hashing algorithm to bcrypt for better security.
+- **User Authentication:**
+    - Implement authentication for students to ensure only registered students can submit feedback.
+## Acknowledgements
+
+ I would like to express my sincere gratitude to all those who have contributed to the successful completion of this project, including my DBMS professor, peers, the open-source community, and my friends and family.
+
+
+
